@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Órbita: calendario móvil con glassmorfismo e interfaz espacial. Laboratorio con Row y Column.">
+  <meta name="theme-color" content="#249FE4">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="manifest" href="manifest.json">
+  <title>Órbita · Calendario</title>
+  <style>html,body{margin:0;background:#EDF8FF}#loading{height:100vh;display:flex;align-items:center;justify-content:center;font:500 20px 'Segoe UI',sans-serif;color:#249FE4}</style>
+</head>
+<body>
+  <div id="loading" role="status">Órbita · Preparando tu calendario…</div>
+  <script>window.addEventListener('flutter-first-frame',()=>document.getElementById('loading')?.remove());</script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
+

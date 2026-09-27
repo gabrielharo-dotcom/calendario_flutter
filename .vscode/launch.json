@@ -1,0 +1,7 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    { "name": "Órbita · Android", "request": "launch", "type": "dart", "deviceId": "emulator-5554" },
+    { "name": "Órbita · Vista previa móvil", "request": "launch", "type": "dart", "deviceId": "edge" }
+  ]
+}
